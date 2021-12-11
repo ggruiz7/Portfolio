@@ -164,6 +164,16 @@ section {
   color: var(--color6);
 }
 
+footer {
+  height: 55px;
+  background-color: var(--color5);
+  color: var(--color1);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 20px;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 1rem;
