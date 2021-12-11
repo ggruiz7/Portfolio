@@ -35,7 +35,7 @@ header {
 
 header h1 {
   font-weight: bold;
-  font-size: 30;
+  font-size: 3vw;
   color: var(--color1);
   margin: 0;
   text-shadow: 10px rgba(71, 38, 255, 0.233);
@@ -61,7 +61,7 @@ header nav ul {
 
 header nav ul li a {
   font-weight: lighter;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   padding: 10px;
 }
 
@@ -81,8 +81,8 @@ section {
 }
 
 .about {
-  background-color: var(--color4);
-  border: solid 5px var(--color3);
+  /*background-color: var(--color4);
+  border: solid 5px var(--color3);*/
   display: flex;
   flex-wrap: wrap;
 }
@@ -99,7 +99,7 @@ section {
 
 .about-me img {
   flex: 1 20%;
-  width: 40%;
+  width: 20%;
   height: auto;
   display: block;
   margin: auto;
