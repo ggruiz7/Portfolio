@@ -4,6 +4,7 @@
   --color3: #004d99;
   --color4: #d3d3d3;
   --color5: rgb(0, 0, 0);
+  --color6: rgb(71, 38, 255);
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 body {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
@@ -37,7 +38,7 @@ header h1 {
   font-size: 30;
   color: var(--color1);
   margin: 0;
-  text-shadow: 10px rgba(255, 255, 255, 100%);
+  text-shadow: 10px rgba(71, 38, 255, 0.233);
 }
 
 header a {
@@ -71,7 +72,6 @@ section {
 .section-title {
   text-align: center;
   font-size: 40px;
-  color: var(--color1);
   padding-bottom: 15px;
   border-bottom: solid 3px var(--color3);
   margin: 0 auto 25px;
@@ -94,7 +94,7 @@ section {
 }
 
 .about-me-img {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .about-me img {
@@ -128,7 +128,8 @@ section {
   flex: 0 0 100%;
   justify-content: center;
   align-items: center;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(71, 38, 255, 0.233);
   border-radius: 7px;
   transition: all 0.3 ease-in-out;
   margin: 20px;
@@ -138,28 +139,49 @@ section {
 }
 
 .project-card:hover {
-  box-shadow: inset 0 0 7px rgba(232, 102, 236, 1);
+  box-shadow: inset 0 0 7px rgba(71, 38, 255, 0.233);
   transform: scale(1.1);
 }
 
 .project-card a {
-  color: black;
+  color: var(--color5);
 }
 
 .project-card a:hover {
-  color: rgb(232, 102, 236);
+  color: var(--color6);
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact a {
+  font-size: x-large;
+  color: var(--color6);
 }
 
 @media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  header nav ul li a {
+    font-size: 3.5vw;
+  }
+
   .project-grid {
     padding: 30px;
   }
 
   .project-card {
     height: 200px;
-  }
-
-  header nav ul li a {
-    font-size: 3.5vw;
   }
 }
