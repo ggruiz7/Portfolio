@@ -13,6 +13,6 @@ selections when hovered over
 
 ### Deployed application: https://ggruiz7.github.io/Password-Generator/
 
-#$$ Github repository: https://github.com/ggruiz7/Password-Generator
+### Github repository: https://github.com/ggruiz7/Password-Generator
 
-[!screenshot](assets\images\page-screenshot.png)
+![screenshot](/assets/images/page-screenshot.png)
