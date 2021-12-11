@@ -11,8 +11,8 @@ selections when hovered over
 - resizing the page or across various screens has responsive layout that adapts to my viewport
 ```
 
-### Deployed application: https://ggruiz7.github.io/Password-Generator/
+### Deployed application: https://ggruiz7.github.io/Portfolio/
 
-### Github repository: https://github.com/ggruiz7/Password-Generator
+### Github repository: https://github.com/ggruiz7/Portfolio
 
 ![screenshot](/assets/images/page-screenshot.png)
